@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>QR code generator</title>
+    <style>
+        #qrcode {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+
+<input id="text" type="text" value="https://gabnotes.org">
+<button id="button">Generate</button>
+
+<div id="qrcode"></div>
+
+<p>
+    Made with <a href="https://davidshimjs.github.io/qrcodejs/">qrcode.js</a>.
+</p>
+
+<script src="qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
